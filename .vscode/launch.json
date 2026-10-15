@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Botni ishga tushirish (lokal)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_local.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "Test: to'liq oqim",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_flow.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Test: webhook va Redis",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_webhook_redis.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

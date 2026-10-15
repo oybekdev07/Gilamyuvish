@@ -1,0 +1,5 @@
+aiogram>=3.13,<4
+gspread>=6.1,<7
+google-auth>=2.30
+tzdata
+python-dotenv>=1.0
